@@ -1,0 +1,81 @@
+#header-title{
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: aliceblue;
+
+}
+header{
+  background-image: url("images/homepage/pexels-nessah-32391849 (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 250px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+section{    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    margin: 20px auto;
+    max-width: 800px; /* Adjust as needed */
+}
+
+section ul {
+    text-align: left;
+    padding-left: 20px;
+    list-style-type: disc;
+    font-size: 0.95em;
+    margin-bottom: auto;
+}
+
+p{
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+#intro-image{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+      max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nav-bar li {
+  display: inline;
+  margin: 15px;
+}
+
+#nav-bar{
+    border: #333 solid 1px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+}
