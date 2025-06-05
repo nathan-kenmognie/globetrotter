@@ -82,3 +82,83 @@ h1, h2, h3 {
     border-radius: 8px;
     background-color: #f2f2f2;
 }
+
+
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  margin: 0;
+  font: 1em/var(--body-leading) sans-serif;
+  
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+    border-radius: var(--gallery-item-border-radius);
+
+}
+
+.page-container {
+  padding: var(--container-padding);
+  max-width: var(--container-width);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:root {
+  --gallery-items-per-row: 1;
+}
+
+.img-gallery {
+  display: flex;
+  flex-flow: column wrap;
+  height: 900px;
+    gap: 1rem;
+}
+
+.img-gallery__item {
+  width: calc(100% / var(--gallery-items-per-row));
+
+  img {
+    border-radius: var(--gallery-item-border-radius);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+
+  figcaption {
+    margin-top: .5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  @media only screen and (width >= 1024px) {
+  .img-gallery {
+    --gallery-items-per-row: 4;
+
+
+  }
+
+}
+@media only screen and (768px < width < 1024px) {
+  .img-gallery {
+    --gallery-items-per-row: 3;
+
+  }
+}
+@media only screen and (540px < width < 768px) {
+  .img-gallery {
+    --gallery-items-per-row: 2;
+
+  }
+}
