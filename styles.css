@@ -6,7 +6,6 @@
 
 }
 header{
-  background-image: url("images/homepage/pexels-nessah-32391849 (1).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -62,6 +61,17 @@ h1, h2, h3 {
   width: 50%;
 }
 
+#nav-bar {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: #555 0px 0px 5px;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: #224710;
+  font-weight: bold;
+}
+
 
 
 #nav-bar ul {
@@ -95,6 +105,62 @@ body {
   
 }
 
+.food-list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.food-item {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: #555 0px 0px 5px;
+  max-width: 500px;
+}
+
+.food-list img{
+
+  max-width: 300px;
+  max-height: 200px;
+  object-fit: cover;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: #555 0px 0px 5px;
+}
+
+.food-item h3 {
+  color: #224710;
+  margin: 10px 0;
+}
+.restaurant-info {
+  padding: 10px;
+  font-size: 1em;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: #555 0px 0px 5px;
+  margin-top: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.restaurant-info a {
+  color: #224710;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
 .img-gallery{
   padding: 0%;
   margin: 0 auto;
@@ -110,22 +176,47 @@ body {
   flex-wrap: wrap;
   box-sizing: border-box;
   justify-content: flex-end;
-  box-shadow: #555 0px 0px 5px;
   border-radius: 8px;
   margin: 10px;
-
+  background-color: #f2f2f2;
+  box-shadow: #555 0px 0px 5px;
+  outline: rgb(64, 59, 59) solid 1px;  
 }
 
-.img-gallery-item figcaption{
+.img-gallery-item figcaption {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: #555 0px 0px 5px;
+
   text-align: center;
   font-size: 1em;
-  color: #333;
+  color: #224710;
   margin-top: 5px;
 }
 
-.img-gallery-item img {
+
+body {
+  background-image: url("images/homepage/pexels-nessah-32391849 (1).jpg") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.attractions-list img{
   max-width: 500px;
-  max-height: 500px;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: #555 0px 0px 5px;
+
+}
+
+
+.img-gallery-item img {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 8px;
   margin: 10px;
@@ -140,6 +231,120 @@ body {
   .img-gallery-item {
     flex-basis: calc(50% - 20px);
   }
+  section img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 8px;
+    box-shadow: #555 0px 0px 5px;
+  }
+  .food-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .food-item {
+    max-width: 100%;
+  }
+  #header-title {
+    font-size: 1.5em;
+  }
+  header {
+    min-height: 200px;
+  }           
+  #nav-bar {
+    padding: 10px;
+  }
+  #nav-bar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #nav-bar li {
+    display: block;
+    margin: 10px 0;
+  }
+  section {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .img-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-gallery-item {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+  .img-gallery-item figcaption {
+    font-size: 0.9em;
+  }
+  .restaurant-info {
+    font-size: 0.9em;
+  }
+  .food-list img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  .food-item h3 {
+    font-size: 1.2em;
+  }
+  .food-item p {
+    font-size: 1em;
+  }
+  .attractions-list img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  .attractions-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .attractions-list h3 {
+    font-size: 1.2em;
+  }
+  .attractions-list p {
+    font-size: 1em;
+  }
+  .img-gallery-item img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  .img-gallery-item {
+    flex-basis: calc(100% - 20px);
+  }
+  .img-gallery-item figcaption {
+    font-size: 0.9em;
+    padding: 5px;
+  }
+  .restaurant-info {
+    font-size: 0.9em;
+    padding: 5px;
+  }
+  .food-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .food-item {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+  .food-item h3 {
+    font-size: 1.2em;
+  }
+  .food-item p {
+    font-size: 1em;
+  }
+  .attractions-list img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  .attractions-list h3 {
+    font-size: 1.2em;
+  } 
   
 }
 @media screen and (max-width: 480px) {
@@ -156,7 +361,74 @@ body {
     border-radius: 8px;
     box-shadow: #555 0px 0px 5px;
 }
+  .food-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .food-item {
+    max-width: 100%;
+  }
+  #header-title {
+    font-size: 1.5em;
+  }
+  header {
+    min-height: 200px;
+  }
+  #nav-bar {
+    padding: 10px;
+  }
+  #nav-bar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #nav-bar li {
+    display: block;
+    margin: 10px 0;
+  }
+  section {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .img-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-gallery-item {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+  .img-gallery-item figcaption {
+    font-size: 0.9em;
+  }
+  .restaurant-info {
+    font-size: 0.9em;
+  }
+  .food-list img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  .food-item h3 {
+    font-size: 1.2em;
+  }
+  .food-item p {
+    font-size: 1em;
+  }
+  .attractions-list img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  .attractions-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .attractions-list h3 {
+    font-size: 1.2em;
+  }
+  .attractions-list p {
+    font-size: 1em;
+  }
   
 }
-
 
