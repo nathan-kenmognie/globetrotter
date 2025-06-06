@@ -97,6 +97,15 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
+<div>
+    <a href="https://www.loom.com/share/76bf7cd222174f1b9dfdf9c956593769">
+      <p>Traveler's Guide to Cameroon - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/76bf7cd222174f1b9dfdf9c956593769">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/76bf7cd222174f1b9dfdf9c956593769-c3472fae4f7c0d88-full-play.gif">
+    </a>
+  </div>
+
 https://www.loom.com/share/76bf7cd222174f1b9dfdf9c956593769?sid=e66e142d-6c00-446a-ac1b-b333fe786efd
 
 ### Reflection
@@ -111,7 +120,7 @@ https://www.loom.com/share/76bf7cd222174f1b9dfdf9c956593769?sid=e66e142d-6c00-44
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-**Everything went just as I had planned honestly. The only thing that had me waist more time than I would have liked what figuring out how to use flexboxes in a way that allowed my boxes to not only self order, but also resize themselves based on screen size.**
+**Everything went just as I had planned honestly. The only thing that had me waste more time than I would have liked what figuring out how to use flexboxes in a way that allowed my boxes to not only self order, but also resize themselves based on screen size.**
 
 ### Open-source libraries used
 
