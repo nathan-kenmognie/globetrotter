@@ -31,51 +31,51 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
     - E.g. same font, image size, title size, etc.
   - [x] Content arranged with Flexbox for consistency and responsiveness.
 
-- [ ] **Guide Page (Choose One)**
+- [x] **Guide Page (Choose One)**
 
-  - [ ] A separate page that is either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
-  - [ ] At least three entries thematic to your choice that provide a:
-    - [ ] Title
-    - [ ] Address
-    - [ ] Description
-    - [ ] Link with more information (e.g. link to a restaurant page)
-  - [ ] Each entry should be:
-    - [ ] Catered to a specific type of traveler (families, backpackers, etc.)
-    - [ ] Styled the same
+  - [x] A separate page that is either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
+  - [x] At least three entries thematic to your choice that provide a:
+    - [x] Title
+    - [x] Address
+    - [x] Description
+    - [x] Link with more information (e.g. link to a restaurant page)
+  - [x] Each entry should be:
+    - [x] Catered to a specific type of traveler (families, backpackers, etc.)
+    - [x] Styled the same
       - E.g. same font, title size, etc.
-  - [ ] Content arranged with Flexbox for consistency and responsiveness.
+  - [x] Content arranged with Flexbox for consistency and responsiveness.
 
-- [ ] **Photo Gallery**
+- [x] **Photo Gallery**
 
-  - [ ] Separate page with at least five images related to the site's topic.
-  - [ ] Each image should include a caption describing the image.
-  - [ ] Presented in a responsive design using Flexbox.
+  - [x] Separate page with at least five images related to the site's topic.
+  - [x] Each image should include a caption describing the image.
+  - [x] Presented in a responsive design using Flexbox.
 
-- [ ] **Navigation Bar**
+- [x] **Navigation Bar**
 
-  - [ ] Navigation bar with working links to each of the following pages:
-    - [ ] Home Page
-    - [ ] Top Attractions
-    - [ ] Photo Gallery
-    - [ ] Guide Page (Food Guide, Accomodations Guide, _or_ Upcoming Local Events Guide)
-  - [ ] Navigation bar can be accessed from each page of the website.
-  - [ ] Styled with Flexbox that adapts to different screen sizes.
+  - [x] Navigation bar with working links to each of the following pages:
+    - [x] Home Page
+    - [x] Top Attractions
+    - [x] Photo Gallery
+    - [x] Guide Page (Food Guide, Accomodations Guide, _or_ Upcoming Local Events Guide)
+  - [x] Navigation bar can be accessed from each page of the website.
+  - [x] Styled with Flexbox that adapts to different screen sizes.
 
-- [ ] **Smartphone Friendly**
-  - [ ] A design that is fully functional and aesthetically pleasing on smartphones is achieved using media queries.
+- [x] **Smartphone Friendly**
+  - [x] A design that is fully functional and aesthetically pleasing on smartphones is achieved using media queries.
 
 ### Stretch Features
 
-- [ ] **Additional Media**
+- [x] **Additional Media**
 
-  - [ ] Embed a piece of media that is not an image or text and relates to the travel content such as a:
+  - [x] Embed a piece of media that is not an image or text and relates to the travel content such as a:
     - Map
     - Video
     - Song
 
-- [ ] **Enhanced Layouts**
+- [x] **Enhanced Layouts**
 
-  - [ ] Utilize CSS Grid on one or more pages for a unique layout.
+  - [x] Utilize CSS Grid on one or more pages for a unique layout.
 
 - [ ] **Interactive Navigation**
 
