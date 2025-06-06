@@ -73,11 +73,11 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
     - Video
     - Song
 
-- [x] **Enhanced Layouts**
+- [] **Enhanced Layouts**
 
-  - [x] Utilize CSS Grid on one or more pages for a unique layout.
+  - [] Utilize CSS Grid on one or more pages for a unique layout.
 
-- [ ] **Interactive Navigation**
+- [] **Interactive Navigation**
 
   - [ ] Implement a dropdown menu where at least one menu item includes a nested dropdown menu to access additional categories or sub-pages.
 
@@ -86,9 +86,9 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [ ] Create a form to allow users to sign up for a travel newsletter, enhancing user engagement.
   - [ ] _Note_: You do not have to collect and save the data submitted using the form.
 
-- [ ] **Deployment**
+- [x] **Deployment**
 
-  - [ ] Deploy your website so it's accessible to the public outside of your local machine.
+  - [x] Deploy your website so it's accessible to the public outside of your local machine.
   - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please film yourself using your deployed URL with the URL visible in your video.
 
 - [ ] **Custom Styling**: Add a personal touch to your site's design.
@@ -97,9 +97,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+https://www.loom.com/share/76bf7cd222174f1b9dfdf9c956593769?sid=e66e142d-6c00-446a-ac1b-b333fe786efd
 
 ### Reflection
 
