@@ -103,20 +103,20 @@ https://www.loom.com/share/76bf7cd222174f1b9dfdf9c956593769?sid=e66e142d-6c00-44
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Almost everything discussed in class was used in this project. From flexboxes, to CSS responsiveness and HTML semantic ordering. I made sure to utalize everything.
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
 
-Add your response here
+If I had more time I would add more content for each feature like more restaurants to visit, videos of concerts and attractions, and maybe change the gallery to a CSS grid instead of a flexbox.
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Everything went just as I had planned honestly. The only thing that had me waist more time than I would have liked what figuring out how to use flexboxes in a way that allowed my boxes to not only self order, but also resize themselves based on screen size.
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Thank you to Keith, Lucia, and Alex for giving me such good feedback! Also, shoutout to Amari and Kenna for allowing me to work on their projects with them to help them address their issues and help me get a better grasp of the topic.
