@@ -247,6 +247,25 @@ body {
   justify-content: center;
 }
 
+.trasportation-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.trasportation-type {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: #555 0px 0px 5px;
+  max-width: 500px;
+}
+
 @media screen and (max-width: 768px) {
   .img-gallery-item img {
     max-width: 100%;
