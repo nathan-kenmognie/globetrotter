@@ -14,22 +14,22 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 #### CORE FEATURES
 
-- [ ] **Home Page**
+- [x] **Home Page**
 
-  - [ ] A heading that mentions the destination.
-  - [ ] An introductory paragraph that welcomes visitors and dsescribes the purpose of the website.
-  - [ ] An evocative image that represents the location.
-  - [ ] Content organized using Flexbox for a fluid layout.
+  - [x] A heading that mentions the destination.
+  - [x] An introductory paragraph that welcomes visitors and dsescribes the purpose of the website.
+  - [x] An evocative image that represents the location.
+  - [x] Content organized using Flexbox for a fluid layout.
 
-- [ ] **Top Attractions Page**
+- [x] **Top Attractions Page**
 
-  - [ ] A separate page featuring a minimum of three attractions, each including a:
-    - [ ] Name
-    - [ ] Photo
-    - [ ] Brief description
-  - [ ] Each attraction is styled the same
+  - [x] A separate page featuring a minimum of three attractions, each including a:
+    - [x] Name
+    - [x] Photo
+    - [x] Brief description
+  - [x] Each attraction is styled the same
     - E.g. same font, image size, title size, etc.
-  - [ ] Content arranged with Flexbox for consistency and responsiveness.
+  - [x] Content arranged with Flexbox for consistency and responsiveness.
 
 - [ ] **Guide Page (Choose One)**
 
