@@ -224,11 +224,13 @@ body {
 
 .img-gallery{
   padding: 0%;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: wrap;
+  justify-content: center;
+
+  
 }
 
 .img-gallery-item {
